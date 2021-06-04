@@ -121,15 +121,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a4d18e764dd3955eb546e1721f9c72c64"><td class="memItemLeft" align="right" valign="top"><a id="a4d18e764dd3955eb546e1721f9c72c64"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>n</b></td></tr>
 <tr class="separator:a4d18e764dd3955eb546e1721f9c72c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbea2b34f1ca9c2653f6c75679a8a5f1"><td class="memItemLeft" align="right" valign="top"><a id="acbea2b34f1ca9c2653f6c75679a8a5f1"></a>
+<tr class="memitem:a8989929d5b83a05942f79a2cd8552aa3"><td class="memItemLeft" align="right" valign="top"><a id="a8989929d5b83a05942f79a2cd8552aa3"></a>
 <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>a</b></td></tr>
-<tr class="separator:acbea2b34f1ca9c2653f6c75679a8a5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb524481914fe690b9a73b10f946dae7"><td class="memItemLeft" align="right" valign="top"><a id="aeb524481914fe690b9a73b10f946dae7"></a>
+<tr class="separator:a8989929d5b83a05942f79a2cd8552aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e8eb4678d5ee52cdefab2a01f1b8ae0"><td class="memItemLeft" align="right" valign="top"><a id="a1e8eb4678d5ee52cdefab2a01f1b8ae0"></a>
 <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, N &gt;, M &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ST</b></td></tr>
-<tr class="separator:aeb524481914fe690b9a73b10f946dae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1ef9a1d710d88138a7a5c43b499a73e"><td class="memItemLeft" align="right" valign="top"><a id="af1ef9a1d710d88138a7a5c43b499a73e"></a>
+<tr class="separator:a1e8eb4678d5ee52cdefab2a01f1b8ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0138cd3b34189f10072bcb21b80fb36"><td class="memItemLeft" align="right" valign="top"><a id="ae0138cd3b34189f10072bcb21b80fb36"></a>
 <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>LOG</b></td></tr>
-<tr class="separator:af1ef9a1d710d88138a7a5c43b499a73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae0138cd3b34189f10072bcb21b80fb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -168,23 +168,23 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>M</b> = 1
 <p>Builds the sparse table for computing min/max/gcd/lcm/...etc for any contiguous sub-segment of the array.</p>
 <p>This is an example of computing the index of the minimum value.</p>
 <p>Complexity: O(n.log(n)) </p>
-<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                       {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            LOG[0] = -1;</div>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                   {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        LOG[0] = -1;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                ST[0][i] = i;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                LOG[i + 1] = LOG[i] + !(i &amp; (i + 1));</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            ST[0][i] = i;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            LOG[i + 1] = LOG[i] + !(i &amp; (i + 1));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; (1 &lt;&lt; j) &lt;= n; ++j) {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; (i + (1 &lt;&lt; j)) &lt;= n; ++i) {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    <span class="keywordtype">int</span> x = ST[j - 1][i];</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="keywordtype">int</span> y = ST[j - 1][i + (1 &lt;&lt; (j - 1))];</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; (1 &lt;&lt; j) &lt;= n; ++j) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; (i + (1 &lt;&lt; j)) &lt;= n; ++i) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordtype">int</span> x = ST[j - 1][i];</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordtype">int</span> y = ST[j - 1][i + (1 &lt;&lt; (j - 1))];</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    ST[j][i] = (a[x] &lt;= a[y] ? x : y);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            }</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                ST[j][i] = (a[x] &lt;= a[y] ? x : y);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -231,12 +231,12 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>M</b> = 1
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the computed value of the given interval. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keywordtype">int</span> g = LOG[r - l + 1];</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <span class="keywordtype">int</span> x = ST[g][l];</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordtype">int</span> y = ST[g][r - (1 &lt;&lt; g) + 1];</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="keywordflow">return</span> (a[x] &lt;= a[y] ? x : y);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                            {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">int</span> g = LOG[r - l + 1];</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordtype">int</span> x = ST[g][l];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordtype">int</span> y = ST[g][r - (1 &lt;&lt; g) + 1];</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">return</span> (a[x] &lt;= a[y] ? x : y);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
