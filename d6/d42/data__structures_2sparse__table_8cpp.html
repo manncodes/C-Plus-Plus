@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d6/d42/data__structures_2sparse__table
 </div><!--header-->
 <div class="contents">
 
-<p>Implementation of Sparse Table.  
+<p>Implementation of <a href="https://brilliant.org/wiki/sparse-table/">Sparse Table</a> for <code><a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a></code> function.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;array&gt;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
@@ -114,7 +114,7 @@ Include dependency graph for sparse_table.cpp:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html">data_structures::sparse_table::Sparse_table</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to represent sparse table.  <a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A struct to represent sparse table for <code><a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a></code> as their invariant function, for the given array <code>A</code>. The answer to queries are stored in array ST.  <a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -123,7 +123,7 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:d5/d3c/namespacedata__structures"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data Structures algorithms. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d55/namespacesparse__table"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d55/namespacesparse__table.html">sparse_table</a></td></tr>
-<tr class="memdesc:d9/d55/namespacesparse__table"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implementation of Sparse Table for function : <a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a> <br /></td></tr>
+<tr class="memdesc:d9/d55/namespacesparse__table"><td class="mdescLeft">&#160;</td><td class="mdescRight">sparse table and it's util functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -136,11 +136,11 @@ Functions</h2></td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Implementation of Sparse Table. </p>
+<div class="textblock"><p>Implementation of <a href="https://brilliant.org/wiki/sparse-table/">Sparse Table</a> for <code><a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a></code> function. </p>
 <dl class="section author"><dt>Author</dt><dd><a href="https://github.com/manncodes">Mann Patel</a></dd></dl>
 <p>Sparse Table is a data structure, that allows answering range queries. It can answer most range queries in O(logn), but its true power is answering range minimum queries (or equivalent range maximum queries). For those queries it can compute the answer in O(1) time. The only drawback of this data structure is, that it can only be used on immutable arrays. This means, that the array cannot be changed between two queries.</p>
 <p>If any element in the array changes, the complete data structure has to be recomputed.</p>
-<dl class="section warning"><dt>Warning</dt><dd>this sparse table is made for <code>min(a1,a2,...an)</code> duplicate invariant function. This implementation can be changed to other functions like <code><a class="el" href="../../d4/da0/gcd__iterative__euclidean_8cpp.html#ae48807fa2b7000afae599e67f327545e">gcd()</a></code>, <code><a class="el" href="../../d4/d21/least__common__multiple_8cpp.html#aa8d0e241db517813725e721a152e3a25">lcm()</a></code>, and <code>max()</code> by changing a few lines of code. </dd></dl>
+<dl class="section warning"><dt>Warning</dt><dd>This sparse table is made for <code>min(a1,a2,...an)</code> duplicate invariant function. This implementation can be changed to other functions like <code><a class="el" href="../../d4/da0/gcd__iterative__euclidean_8cpp.html#ae48807fa2b7000afae599e67f327545e">gcd()</a></code>, <code><a class="el" href="../../d4/d21/least__common__multiple_8cpp.html#aa8d0e241db517813725e721a152e3a25">lcm()</a></code>, and <code>max()</code> by changing a few lines of code. </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&nbsp;</a></span>main()</h2>
@@ -177,11 +177,11 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
-<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                 {</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="../../d6/d42/data__structures_2sparse__table_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
-<div class="ttc" id="adata__structures_2sparse__table_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d6/d42/data__structures_2sparse__table_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:114</div></div>
+<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                                 {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d6/d42/data__structures_2sparse__table_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a>();  <span class="comment">// run self-test implementations</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="ttc" id="adata__structures_2sparse__table_8cpp_html_aa8dca7b867074164d5f45b0f3851269d"><div class="ttname"><a href="../../d6/d42/data__structures_2sparse__table_8cpp.html#aa8dca7b867074164d5f45b0f3851269d">test</a></div><div class="ttdeci">static void test()</div><div class="ttdoc">Self-test implementations.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:107</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -216,32 +216,37 @@ Here is the call graph for this function:</div>
 
 <p>Self-test implementations. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                   {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;int, 10&gt;</a> testcase = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">int</span> testcase_size = <span class="keyword">sizeof</span>(testcase) / <span class="keyword">sizeof</span>(testcase[0]);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html">data_structures::sparse_table::Sparse_table</a> st{};</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">// copying testcase to the struct</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy</a>(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a>(testcase), <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a>(testcase), <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a>(st.a));</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    st.n = testcase_size;</div>
+<p>&lt; copying testcase to the struct</p>
+<p>&lt; precomputing sparse tree</p>
+<p>&lt; as 1 is smallest from 1..9</p>
+<p>&lt; as 2 is smallest from 2..6</p>
+<p>&lt; as 3 is smallest from 3..8</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                   {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;int, 10&gt;</a> testcase = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">int</span> testcase_size = <span class="keyword">sizeof</span>(testcase) / <span class="keyword">sizeof</span>(testcase[0]);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html">data_structures::sparse_table::Sparse_table</a> st{};</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy</a>(<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a>(testcase), <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a>(testcase),</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;              <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a>(st.A));  <span class="comment">///&lt; copying testcase to the struct</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    st.n = testcase_size;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    st.buildST();  <span class="comment">///&lt; precomputing sparse tree</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="comment">// pass queries of the form: [l,r]</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    assert(st.query(1, 9) == 1);  <span class="comment">///&lt; as 1 is smallest from 1..9</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    assert(st.query(2, 6) == 2);  <span class="comment">///&lt; as 2 is smallest from 2..6</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    assert(st.query(3, 8) == 3);  <span class="comment">///&lt; as 3 is smallest from 3..8</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="comment">// precomputing sparse tree</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    st.buildST();</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="comment">// pass queries of form [l,r]</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    assert(st.query(1, 9) == 1);  <span class="comment">// as 1 is smallest from 1..9</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    assert(st.query(2, 6) == 2);  <span class="comment">// as 2 is smallest from 2..6</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    assert(st.query(3, 8) == 3);  <span class="comment">// as 3 is smallest from 3..8</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Testcase passed!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Testcase passed!&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
 <div class="ttc" id="aarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a></div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="abegin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/iterator/begin.html">std::begin</a></div><div class="ttdeci">T begin(T... args)</div></div>
 <div class="ttc" id="acopy_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/copy.html">std::copy</a></div><div class="ttdeci">T copy(T... args)</div></div>
 <div class="ttc" id="aend_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/iterator/end.html">std::end</a></div><div class="ttdeci">T end(T... args)</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
-<div class="ttc" id="astructdata__structures_1_1sparse__table_1_1_sparse__table_html"><div class="ttname"><a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html">data_structures::sparse_table::Sparse_table</a></div><div class="ttdoc">A struct to represent sparse table.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:45</div></div>
+<div class="ttc" id="astructdata__structures_1_1sparse__table_1_1_sparse__table_html"><div class="ttname"><a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html">data_structures::sparse_table::Sparse_table</a></div><div class="ttdoc">A struct to represent sparse table for min() as their invariant function, for the given array A....</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:44</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

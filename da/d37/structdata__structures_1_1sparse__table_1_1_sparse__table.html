@@ -100,48 +100,55 @@ $(document).ready(function(){initNavTree('da/d37/structdata__structures_1_1spars
 </div><!--header-->
 <div class="contents">
 
-<p>A struct to represent sparse table.  
+<p>A struct to represent sparse table for <code><a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a></code> as their invariant function, for the given array <code>A</code>. The answer to queries are stored in array ST.  
  <a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for data_structures::sparse_table::Sparse_table:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/daa/structdata__structures_1_1sparse__table_1_1_sparse__table__coll__graph.svg" width="256" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/daa/structdata__structures_1_1sparse__table_1_1_sparse__table__coll__graph.svg" width="252" height="246"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a88ba30008584c85c8ecf119c2fc1f97b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a88ba30008584c85c8ecf119c2fc1f97b">buildST</a> ()</td></tr>
+<tr class="memdesc:a88ba30008584c85c8ecf119c2fc1f97b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the sparse table for computing min/max/gcd/lcm/...etc for any contiguous sub-segment of the array.This is an example of computing the index of the minimum value.  <a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a88ba30008584c85c8ecf119c2fc1f97b">More...</a><br /></td></tr>
 <tr class="separator:a88ba30008584c85c8ecf119c2fc1f97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c08af4150d2c3a26625707997cdd08b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4c08af4150d2c3a26625707997cdd08b">query</a> (int l, int r)</td></tr>
+<tr class="memdesc:a4c08af4150d2c3a26625707997cdd08b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queries the sparse table for the value of the interval <a href="../../i.e. from l to r inclusive">l, r</a>.  <a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4c08af4150d2c3a26625707997cdd08b">More...</a><br /></td></tr>
 <tr class="separator:a4c08af4150d2c3a26625707997cdd08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4d18e764dd3955eb546e1721f9c72c64"><td class="memItemLeft" align="right" valign="top"><a id="a4d18e764dd3955eb546e1721f9c72c64"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>n</b></td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4d18e764dd3955eb546e1721f9c72c64">n</a></td></tr>
+<tr class="memdesc:a4d18e764dd3955eb546e1721f9c72c64"><td class="mdescLeft">&#160;</td><td class="mdescRight">size of input array. <br /></td></tr>
 <tr class="separator:a4d18e764dd3955eb546e1721f9c72c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8989929d5b83a05942f79a2cd8552aa3"><td class="memItemLeft" align="right" valign="top"><a id="a8989929d5b83a05942f79a2cd8552aa3"></a>
-<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>a</b></td></tr>
-<tr class="separator:a8989929d5b83a05942f79a2cd8552aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3cd8b71bfc62f419ac0907865d97145"><td class="memItemLeft" align="right" valign="top"><a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, <a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a8c846af6247e4c91ccc74ec0d88a45ef">N</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">A</a></td></tr>
+<tr class="memdesc:aa3cd8b71bfc62f419ac0907865d97145"><td class="mdescLeft">&#160;</td><td class="mdescRight">input array to perform RMQ.  <a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">More...</a><br /></td></tr>
+<tr class="separator:aa3cd8b71bfc62f419ac0907865d97145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8eb4678d5ee52cdefab2a01f1b8ae0"><td class="memItemLeft" align="right" valign="top"><a id="a1e8eb4678d5ee52cdefab2a01f1b8ae0"></a>
-<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, N &gt;, M &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ST</b></td></tr>
+<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, <a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a8c846af6247e4c91ccc74ec0d88a45ef">N</a> &gt;, <a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ac99a67d34706ed85a2bbb7fd55eeb901">M</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a></td></tr>
+<tr class="memdesc:a1e8eb4678d5ee52cdefab2a01f1b8ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the sparse table storing <code><a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a></code> values for given interval. <br /></td></tr>
 <tr class="separator:a1e8eb4678d5ee52cdefab2a01f1b8ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0138cd3b34189f10072bcb21b80fb36"><td class="memItemLeft" align="right" valign="top"><a id="ae0138cd3b34189f10072bcb21b80fb36"></a>
-<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, N &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>LOG</b></td></tr>
+<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; int, <a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a8c846af6247e4c91ccc74ec0d88a45ef">N</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ae0138cd3b34189f10072bcb21b80fb36">LOG</a></td></tr>
+<tr class="memdesc:ae0138cd3b34189f10072bcb21b80fb36"><td class="mdescLeft">&#160;</td><td class="mdescRight">where floor(log2(i)) are precomputed. <br /></td></tr>
 <tr class="separator:ae0138cd3b34189f10072bcb21b80fb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a8c846af6247e4c91ccc74ec0d88a45ef"><td class="memItemLeft" align="right" valign="top"><a id="a8c846af6247e4c91ccc74ec0d88a45ef"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>N</b> = 12345</td></tr>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a8c846af6247e4c91ccc74ec0d88a45ef">N</a> = 12345</td></tr>
+<tr class="memdesc:a8c846af6247e4c91ccc74ec0d88a45ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum size of the array. <br /></td></tr>
 <tr class="separator:a8c846af6247e4c91ccc74ec0d88a45ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac99a67d34706ed85a2bbb7fd55eeb901"><td class="memItemLeft" align="right" valign="top"><a id="ac99a67d34706ed85a2bbb7fd55eeb901"></a>
-static const int&#160;</td><td class="memItemRight" valign="bottom"><b>M</b> = 14</td></tr>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ac99a67d34706ed85a2bbb7fd55eeb901">M</a> = 14</td></tr>
+<tr class="memdesc:ac99a67d34706ed85a2bbb7fd55eeb901"><td class="mdescLeft">&#160;</td><td class="mdescRight">ceil(log2(N)). <br /></td></tr>
 <tr class="separator:ac99a67d34706ed85a2bbb7fd55eeb901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A struct to represent sparse table. </p>
+<div class="textblock"><p>A struct to represent sparse table for <code><a class="el" href="../../da/d52/minimum__edit__distance_8cpp.html#a0138c226bd79ffe6d839c787cfc60347" title="Takes input of the cost of three operations: Insert, Replace and Delete and return the minimum cost a...">min()</a></code> as their invariant function, for the given array <code>A</code>. The answer to queries are stored in array ST. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a88ba30008584c85c8ecf119c2fc1f97b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88ba30008584c85c8ecf119c2fc1f97b">&#9670;&nbsp;</a></span>buildST()</h2>
@@ -165,26 +172,30 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>M</b> = 1
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Builds the sparse table for computing min/max/gcd/lcm/...etc for any contiguous sub-segment of the array.</p>
-<p>This is an example of computing the index of the minimum value.</p>
-<p>Complexity: O(n.log(n)) </p>
-<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                   {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        LOG[0] = -1;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            ST[0][i] = i;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            LOG[i + 1] = LOG[i] + !(i &amp; (i + 1));</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; (1 &lt;&lt; j) &lt;= n; ++j) {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; (i + (1 &lt;&lt; j)) &lt;= n; ++i) {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordtype">int</span> x = ST[j - 1][i];</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordtype">int</span> y = ST[j - 1][i + (1 &lt;&lt; (j - 1))];</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                ST[j][i] = (a[x] &lt;= a[y] ? x : y);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            }</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+
+<p>Builds the sparse table for computing min/max/gcd/lcm/...etc for any contiguous sub-segment of the array.This is an example of computing the index of the minimum value. </p>
+<dl class="section return"><dt>Returns</dt><dd>void @complexity: O(n.log(n)) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                   {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ae0138cd3b34189f10072bcb21b80fb36">LOG</a>[0] = -1;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4d18e764dd3955eb546e1721f9c72c64">n</a>; ++i) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a>[0][i] = i;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ae0138cd3b34189f10072bcb21b80fb36">LOG</a>[i + 1] = <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ae0138cd3b34189f10072bcb21b80fb36">LOG</a>[i] + !(i &amp; (i + 1));</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; (1 &lt;&lt; j) &lt;= <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4d18e764dd3955eb546e1721f9c72c64">n</a>; ++j) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; (i + (1 &lt;&lt; j)) &lt;= <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4d18e764dd3955eb546e1721f9c72c64">n</a>; ++i) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordtype">int</span> x = <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a>[j - 1][i];</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <span class="keywordtype">int</span> y = <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a>[j - 1][i + (1 &lt;&lt; (j - 1))];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a>[j][i] = (<a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">A</a>[x] &lt;= <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">A</a>[y] ? x : y);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="ttc" id="astructdata__structures_1_1sparse__table_1_1_sparse__table_html_a1e8eb4678d5ee52cdefab2a01f1b8ae0"><div class="ttname"><a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">data_structures::sparse_table::Sparse_table::ST</a></div><div class="ttdeci">std::array&lt; std::array&lt; int, N &gt;, M &gt; ST</div><div class="ttdoc">the sparse table storing min() values for given interval.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:54</div></div>
+<div class="ttc" id="astructdata__structures_1_1sparse__table_1_1_sparse__table_html_a4d18e764dd3955eb546e1721f9c72c64"><div class="ttname"><a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4d18e764dd3955eb546e1721f9c72c64">data_structures::sparse_table::Sparse_table::n</a></div><div class="ttdeci">int n</div><div class="ttdoc">size of input array.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:47</div></div>
+<div class="ttc" id="astructdata__structures_1_1sparse__table_1_1_sparse__table_html_aa3cd8b71bfc62f419ac0907865d97145"><div class="ttname"><a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">data_structures::sparse_table::Sparse_table::A</a></div><div class="ttdeci">std::array&lt; int, N &gt; A</div><div class="ttdoc">input array to perform RMQ.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:52</div></div>
+<div class="ttc" id="astructdata__structures_1_1sparse__table_1_1_sparse__table_html_ae0138cd3b34189f10072bcb21b80fb36"><div class="ttname"><a href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ae0138cd3b34189f10072bcb21b80fb36">data_structures::sparse_table::Sparse_table::LOG</a></div><div class="ttdeci">std::array&lt; int, N &gt; LOG</div><div class="ttdoc">where floor(log2(i)) are precomputed.</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:55</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -221,8 +232,9 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>M</b> = 1
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Queries the sparse table for the value of the interval <a href="../../i.e. from l to r inclusive">l, r</a>.</p>
-<p>Complexity: O(1)</p>
+
+<p>Queries the sparse table for the value of the interval <a href="../../i.e. from l to r inclusive">l, r</a>. </p>
+<p>@complexity: O(1)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">l</td><td>the left index of the range (inclusive). </td></tr>
@@ -231,13 +243,31 @@ static const int&#160;</td><td class="memItemRight" valign="bottom"><b>M</b> = 1
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the computed value of the given interval. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                            {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordtype">int</span> g = LOG[r - l + 1];</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordtype">int</span> x = ST[g][l];</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordtype">int</span> y = ST[g][r - (1 &lt;&lt; g) + 1];</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> (a[x] &lt;= a[y] ? x : y);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                            {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">int</span> g = <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ae0138cd3b34189f10072bcb21b80fb36">LOG</a>[r - l + 1];</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">int</span> x = <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a>[g][l];</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordtype">int</span> y = <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a1e8eb4678d5ee52cdefab2a01f1b8ae0">ST</a>[g][r - (1 &lt;&lt; g) + 1];</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">A</a>[x] &lt;= <a class="code" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145">A</a>[y] ? x : y);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa3cd8b71bfc62f419ac0907865d97145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3cd8b71bfc62f419ac0907865d97145">&#9670;&nbsp;</a></span>A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt;int, <a class="el" href="../../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a8c846af6247e4c91ccc74ec0d88a45ef">N</a>&gt; data_structures::sparse_table::Sparse_table::A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>input array to perform RMQ. </p>
+<dl class="section warning"><dt>Warning</dt><dd>check if <code>N</code> is not less than <code>n</code>. if so, manually increase the value of N </dd></dl>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
