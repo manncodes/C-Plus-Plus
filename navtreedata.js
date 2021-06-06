@@ -123,19 +123,19 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"classes.html",
-"cpp/numeric/math/logb.html",
-"d2/d3b/namespaceqr__algorithm.html#ad16da2183db22378435042f26af43d5f",
-"d5/d4c/group__sorting.html#gae66f6b31b5ad750f1fe042a706a4e3d4",
-"d8/d95/vector__ops_8hpp.html#a05b9445c6ab65053b9bf9897a96af82d",
-"d4/d7a/shell__sort2_8cpp.html#a7eb77daed2cf1513f6d68c47a1c2db1c",
-"db/d8b/struct_node.html#a80be4538a9184fa43c1dee17641e819b",
-"df/def/power__for__huge__numbers_8cpp.html",
-"dir_e3380d2178455503f266746fb14246a5.html",
-"cpp/string/byte/strxfrm.html",
-"dd/d47/namespacemath.html#afa39ec943a4836c878e1614fd89b146f",
-"index.html#autotoc_md73",
-"da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a4c08af4150d2c3a26625707997cdd08b"
+"annotated.html",
+"cpp/iterator/distance.html",
+"cpp/thread/lock.html",
+"d1/d83/classuint256__t.html#ad5ba734dc60992a6907f2d3462db370a",
+"d3/d4c/xor__cipher_8cpp.html#aeff72a463ffc580c16cc849cbbdc58ef",
+"d4/df4/classmachine__learning_1_1neural__network_1_1_neural_network.html#ae7cf126a3a8f9d20c81b21584d061a08",
+"d6/d4a/addition__rule_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"d8/d61/radix__sort2_8cpp.html",
+"d9/d49/structdata__structures_1_1_node.html#ac916d833aad2b9c41f01a92db2f8c48e",
+"da/dac/n__queens__all__solution__optimised_8cpp.html#a23c0547e4fd1708e6fb643b08327a60f",
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#a4261f3c3c3dfdb86f3004eb8aaffea8d",
+"de/d23/disjoint__set_8cpp.html#a44481bb75386fbb0f958a388d4b9f757",
+"globals.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
