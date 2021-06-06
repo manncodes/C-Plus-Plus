@@ -123,19 +123,19 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"cpp/io/c/vfwprintf.html",
-"cpp/string/wide/iswgraph.html",
-"d1/d83/classuint256__t.html#a4e6aa3f3ca9da9eb3a36cd4542ae51bb",
-"d3/d19/sparse__matrix_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
-"d4/dd2/namespacequadratic__probing.html#a90f9d8a71e3f148b65bcc0c1c8a49c70",
-"d6/d26/classciphers_1_1_hill_cipher.html#a63e7b8e92dff8b9260d6d21c31ecebd0",
-"d7/d83/trie__tree_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
-"d9/d23/classgraph_1_1_lowest_common_ancestor.html#a42589cc39d6bbff6c997152f1b96e356",
-"da/d9a/class_graph.html#a92a601c0ada840011e2719cb753b490b",
-"db/da9/classqueue.html",
-"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#a64815f10cf9fb9fdb4cc92731ccf10ba",
-"functions_func.html"
+"annotated.html",
+"cpp/iterator/distance.html",
+"cpp/thread/lock.html",
+"d1/d83/classuint256__t.html#ad5ba734dc60992a6907f2d3462db370a",
+"d3/d4c/xor__cipher_8cpp.html#aeff72a463ffc580c16cc849cbbdc58ef",
+"d4/df4/classmachine__learning_1_1neural__network_1_1_neural_network.html#ae7cf126a3a8f9d20c81b21584d061a08",
+"d6/d4a/addition__rule_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"d8/d61/radix__sort2_8cpp.html",
+"d9/d49/structdata__structures_1_1_node.html#ac916d833aad2b9c41f01a92db2f8c48e",
+"da/dac/n__queens__all__solution__optimised_8cpp.html#a23c0547e4fd1708e6fb643b08327a60f",
+"dc/d38/ordinary__least__squares__regressor_8cpp.html#a4261f3c3c3dfdb86f3004eb8aaffea8d",
+"de/d23/disjoint__set_8cpp.html#a44481bb75386fbb0f958a388d4b9f757",
+"globals.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
