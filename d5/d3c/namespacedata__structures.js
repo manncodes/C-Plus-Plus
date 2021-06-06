@@ -14,7 +14,7 @@ var namespacedata__structures =
     [ "sparse_table", null, [
       [ "Sparse_table", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table" ],
       [ "M", "d6/d42/data__structures_2sparse__table_8cpp.html#aea200e851469e4e36e940d7f637b7099", null ],
-      [ "N", "d6/d42/data__structures_2sparse__table_8cpp.html#a392006fd746709f381f458186f8d7122", null ]
+      [ "N", "d6/d42/data__structures_2sparse__table_8cpp.html#a10f3ffb3f6f7e1b83d556b9c8de89a5d", null ]
     ] ],
     [ "tree_234", null, [
       [ "Node", "dd/d40/classdata__structures_1_1tree__234_1_1_node.html", "dd/d40/classdata__structures_1_1tree__234_1_1_node" ],

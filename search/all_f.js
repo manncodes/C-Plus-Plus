@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n_1351',['N',['../d6/d42/data__structures_2sparse__table_8cpp.html#a392006fd746709f381f458186f8d7122',1,'data_structures::sparse_table']]],
+  ['n_1351',['N',['../d6/d42/data__structures_2sparse__table_8cpp.html#a10f3ffb3f6f7e1b83d556b9c8de89a5d',1,'data_structures::sparse_table']]],
   ['n_1352',['n',['http://en.cppreference.com/w/cpp/numeric/random/fisher_f_distribution/params.html',0,'std::fisher_f_distribution::n()'],['http://en.cppreference.com/w/cpp/numeric/random/chi_squared_distribution/n.html',0,'std::chi_squared_distribution::n()'],['http://en.cppreference.com/w/cpp/numeric/random/student_t_distribution/n.html',0,'std::student_t_distribution::n()'],['../de/d00/classgraph_1_1is__graph__bipartite_1_1_graph.html#aefea7ee87a708298c486d5a38ac628ef',1,'graph::is_graph_bipartite::Graph::n()'],['../d8/d69/classgraph_1_1_h_k_graph.html#a6f5a9fdbb83ef731d739ba6707e21c3c',1,'graph::HKGraph::n()'],['../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ad71ecd43d0af1127df5f4006258f9635',1,'data_structures::sparse_table::Sparse_table::n()']]],
   ['n_5fchoose_5fr_1353',['n_choose_r',['../dd/d47/namespacemath.html#a6e2dff75c5de70455b90c799d6ad6967',1,'math']]],
   ['n_5fchoose_5fr_2ecpp_1354',['n_choose_r.cpp',['../d1/dbb/n__choose__r_8cpp.html',1,'']]],
