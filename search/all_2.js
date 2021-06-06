@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_11',['A',['../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#aa3cd8b71bfc62f419ac0907865d97145',1,'data_structures::sparse_table::Sparse_table']]],
+  ['a_11',['A',['../da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ab78620742305a35ff2f8d61179f47d3e',1,'data_structures::sparse_table::Sparse_table']]],
   ['a_12',['a',['http://en.cppreference.com/w/cpp/numeric/random/cauchy_distribution/params.html',0,'std::cauchy_distribution::a()'],['http://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution/params.html',0,'std::uniform_int_distribution::a()'],['http://en.cppreference.com/w/cpp/numeric/random/weibull_distribution/params.html',0,'std::weibull_distribution::a()'],['http://en.cppreference.com/w/cpp/numeric/random/uniform_real_distribution/params.html',0,'std::uniform_real_distribution::a()'],['http://en.cppreference.com/w/cpp/numeric/random/extreme_value_distribution/params.html',0,'std::extreme_value_distribution::a()']]],
   ['a_5fstar_5fsearch_13',['a_star_search',['../da/d02/classmachine__learning_1_1aystar__search_1_1_ay_star_search.html#a5bb772fd41005fdefa8bd32edbf00cc3',1,'machine_learning::aystar_search::AyStarSearch']]],
   ['abbreviation_14',['abbreviation',['../d7/d73/abbreviation_8cpp.html#af53b2f647bee9c5b75ef8dd9ef685dc8',1,'dynamic_programming::abbreviation::abbreviation()'],['../d0/df8/namespaceabbreviation.html',1,'abbreviation']]],
@@ -70,10 +70,10 @@ var searchData=
   ['array_78',['array',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20data_5fstructures_3a_3atree_5f234_3a_3anode_20_2a_2c_204_20_3e_79',['array&lt; data_structures::tree_234::Node *, 4 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20float_2c_2020_20_3e_80',['array&lt; float, 20 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
-  ['array_3c_20int_2c_20n_20_3e_81',['array&lt; int, N &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
-  ['array_3c_20int16_5ft_2c_20max_5fsize_20_3e_82',['array&lt; int16_t, max_size &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
-  ['array_3c_20int64_5ft_2c_203_20_3e_83',['array&lt; int64_t, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
-  ['array_3c_20std_3a_3aarray_3c_20int_2c_20n_20_3e_2c_20m_20_3e_84',['array&lt; std::array&lt; int, N &gt;, M &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
+  ['array_3c_20int16_5ft_2c_20max_5fsize_20_3e_81',['array&lt; int16_t, max_size &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
+  ['array_3c_20int64_5ft_2c_203_20_3e_82',['array&lt; int64_t, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
+  ['array_3c_20int64_5ft_2c_20n_20_3e_83',['array&lt; int64_t, N &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
+  ['array_3c_20std_3a_3aarray_3c_20int64_5ft_2c_20n_20_3e_2c_20m_20_3e_84',['array&lt; std::array&lt; int64_t, N &gt;, M &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20std_3a_3aarray_3c_20uint32_5ft_2c_203_20_3e_2c_203_20_3e_85',['array&lt; std::array&lt; uint32_t, 3 &gt;, 3 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['array_3c_20uint64_5ft_2c_2050_20_3e_86',['array&lt; uint64_t, 50 &gt;',['http://en.cppreference.com/w/cpp/container/array.html',0,'std']]],
   ['asctime_87',['asctime',['http://en.cppreference.com/w/cpp/chrono/c/asctime.html',0,'std']]],
