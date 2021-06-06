@@ -13,7 +13,7 @@ var namespacedata__structures =
     ] ],
     [ "sparse_table", null, [
       [ "Sparse_table", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table" ],
-      [ "M", "d6/d42/data__structures_2sparse__table_8cpp.html#aea200e851469e4e36e940d7f637b7099", null ],
+      [ "M", "d6/d42/data__structures_2sparse__table_8cpp.html#af7db62f21983565c64d5d42d2a49888e", null ],
       [ "N", "d6/d42/data__structures_2sparse__table_8cpp.html#a10f3ffb3f6f7e1b83d556b9c8de89a5d", null ]
     ] ],
     [ "tree_234", null, [

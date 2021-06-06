@@ -975,18 +975,19 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>determinant of generated random matrix</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>There will need to be a balance between the matrix size and the range of random numbers. If the matrix is large, the range of random numbers must be small to have a well defined keys. Or if the matrix is smaller, the random numbers range can be larger. For an 8x8 matrix, range should be no more than \([0,10]\) </dd></dl>
 <div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                        {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; M-&gt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; M[0][0].<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); j++) {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                M[0][i][j] = rand_range&lt;T1, T2&gt;(a, b);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d6/d42/data__structures_2sparse__table_8cpp.html#af7db62f21983565c64d5d42d2a49888e">M</a>-&gt;size(); i++) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> j = 0; j &lt; <a class="code" href="../../d6/d42/data__structures_2sparse__table_8cpp.html#af7db62f21983565c64d5d42d2a49888e">M</a>[0][0].size(); j++) {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <a class="code" href="../../d6/d42/data__structures_2sparse__table_8cpp.html#af7db62f21983565c64d5d42d2a49888e">M</a>[0][i][j] = rand_range&lt;T1, T2&gt;(a, b);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            }</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d1/dbe/lu__decomposition_8h.html#a3108d43bd32c6fb3b3c158476c51ba7f">determinant_lu</a>(*M);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="ttc" id="adata__structures_2sparse__table_8cpp_html_af7db62f21983565c64d5d42d2a49888e"><div class="ttname"><a href="../../d6/d42/data__structures_2sparse__table_8cpp.html#af7db62f21983565c64d5d42d2a49888e">data_structures::sparse_table::M</a></div><div class="ttdeci">constexpr uint8_t M</div><div class="ttdoc">ceil(log2(N)).</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:46</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d26/classciphers_1_1_hill_cipher_a716d0313141499d16f57c0c107f04395_cgraph.svg" width="630" height="122"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d26/classciphers_1_1_hill_cipher_a716d0313141499d16f57c0c107f04395_cgraph.svg" width="630" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
