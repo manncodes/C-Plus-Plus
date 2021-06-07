@@ -1,6 +1,5 @@
 var structdata__structures_1_1sparse__table_1_1_sparse__table =
 [
-    [ "buildST", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a88ba30008584c85c8ecf119c2fc1f97b", null ],
     [ "query", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a0c8cbe7239232863f104793c08273039", null ],
     [ "A", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#ab78620742305a35ff2f8d61179f47d3e", null ],
     [ "LOG", "da/d37/structdata__structures_1_1sparse__table_1_1_sparse__table.html#a6cf72f93b1551f0d943c585b4f173be3", null ],
