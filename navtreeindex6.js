@@ -1,10 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"d6/d26/classciphers_1_1_hill_cipher.html#a14bfcd14af6cd853130cbacd32e35c13":[9,0,0,1,6],
-"d6/d26/classciphers_1_1_hill_cipher.html#a40efd842a5cc44c233641ac2df13b0c0":[9,0,0,1,10],
-"d6/d26/classciphers_1_1_hill_cipher.html#a427acfac1dbff3f48a2b071d449d965b":[9,0,0,1,1],
-"d6/d26/classciphers_1_1_hill_cipher.html#a5a4cdbd4d4dad9efe2ed309bd466dd4b":[9,0,0,1,9],
-"d6/d26/classciphers_1_1_hill_cipher.html#a629be41c1ab78850963e4ce14e1d11d9":[9,0,0,1,13],
 "d6/d26/classciphers_1_1_hill_cipher.html#a63e7b8e92dff8b9260d6d21c31ecebd0":[9,0,0,1,11],
 "d6/d26/classciphers_1_1_hill_cipher.html#a716d0313141499d16f57c0c107f04395":[9,0,0,1,12],
 "d6/d26/classciphers_1_1_hill_cipher.html#a7760f3665651a0a37937c79c62f219c0":[9,0,0,1,3],
@@ -202,6 +197,11 @@ var NAVTREEINDEX6 =
 "d7/d35/matrix__exponentiation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,15,6,5],
 "d7/d47/namespace_x_o_r.html":[8,0,81],
 "d7/d47/structstd_1_1is__integral_3_01uint256__t_01_4.html":[9,0,13,3],
+"d7/d57/longest__increasing__subsequence_8cpp.html":[10,0,4,5],
+"d7/d57/longest__increasing__subsequence_8cpp.html#a5a5c88ac1f6199860d09594d1875bc23":[10,0,4,5,0],
+"d7/d57/longest__increasing__subsequence_8cpp.html#a9f76e90d6971cb6e19c0f56e699f0849":[10,0,4,5,2],
+"d7/d57/longest__increasing__subsequence_8cpp.html#abf9e6b7e6f15df4b525a2e7705ba3089":[10,0,4,5,1],
+"d7/d57/longest__increasing__subsequence_8cpp.html#ae1a3968e7947464bee7714f6d43b7002":[10,0,4,5,3],
 "d7/d65/shortest__common__supersequence_8cpp.html":[10,0,4,9],
 "d7/d65/shortest__common__supersequence_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[10,0,4,9,2],
 "d7/d65/shortest__common__supersequence_8cpp.html#ad2ee8d7e67da9f6eb85146b08dad95e6":[10,0,4,9,1],
