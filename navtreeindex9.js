@@ -1,5 +1,10 @@
 var NAVTREEINDEX9 =
 {
+"da/d9a/class_graph.html#a6dc4dd4ce49c4052ad2a5d27523881f4":[9,0,23,12],
+"da/d9a/class_graph.html#a73268574e2528b8e760191113ef6d1eb":[9,0,23,26],
+"da/d9a/class_graph.html#a8a34b80e2f3749992e0e9b83de742fba":[9,0,23,25],
+"da/d9a/class_graph.html#a8c95e00effaea0cd9404dd74cd802ae3":[9,0,23,8],
+"da/d9a/class_graph.html#a8dcb5ce0b4a6f65827f5055d9d53a3f1":[9,0,23,20],
 "da/d9a/class_graph.html#a902c5b3eacb66d60752525ab23297a95":[9,0,23,2],
 "da/d9a/class_graph.html#a92a601c0ada840011e2719cb753b490b":[9,0,23,34],
 "da/d9a/class_graph.html#a9474bfdf769cc0d23f5b16c181a29431":[9,0,23,33],
@@ -45,16 +50,16 @@ var NAVTREEINDEX9 =
 "da/da3/uint256__t_8hpp.html#afb4de9c26cbc9703498b7c9bb1f2e82c":[10,0,2,5,9],
 "da/da3/uint256__t_8hpp_source.html":[10,0,2,5],
 "da/dac/n__queens__all__solution__optimised_8cpp.html":[10,0,0,4],
-"da/dac/n__queens__all__solution__optimised_8cpp.html#a04090463be4942a69ea91fe7386da905":[10,0,0,4,3],
 "da/dac/n__queens__all__solution__optimised_8cpp.html#a04090463be4942a69ea91fe7386da905":[8,0,3,2,2],
-"da/dac/n__queens__all__solution__optimised_8cpp.html#a23c0547e4fd1708e6fb643b08327a60f":[10,0,0,4,2],
+"da/dac/n__queens__all__solution__optimised_8cpp.html#a04090463be4942a69ea91fe7386da905":[10,0,0,4,3],
 "da/dac/n__queens__all__solution__optimised_8cpp.html#a23c0547e4fd1708e6fb643b08327a60f":[8,0,3,2,1],
+"da/dac/n__queens__all__solution__optimised_8cpp.html#a23c0547e4fd1708e6fb643b08327a60f":[10,0,0,4,2],
 "da/dac/n__queens__all__solution__optimised_8cpp.html#a9e48455584a4faa33e83dd1891efd9b9":[10,0,0,4,0],
 "da/dac/n__queens__all__solution__optimised_8cpp.html#a9e48455584a4faa33e83dd1891efd9b9":[8,0,3,2,0],
 "da/dac/n__queens__all__solution__optimised_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,0,4,1],
 "da/dc3/linked__list_8cpp.html":[10,0,3,6],
-"da/dc3/linked__list_8cpp.html#ab1a372fe1e605bc0e0987dcdd7361180":[8,0,12,0,2],
 "da/dc3/linked__list_8cpp.html#ab1a372fe1e605bc0e0987dcdd7361180":[10,0,3,6,2],
+"da/dc3/linked__list_8cpp.html#ab1a372fe1e605bc0e0987dcdd7361180":[8,0,12,0,2],
 "da/dc3/linked__list_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,3,6,3],
 "da/dc9/fibonacci__matrix__exponentiation_8cpp.html":[10,0,12,15],
 "da/dc9/fibonacci__matrix__exponentiation_8cpp.html#abc3bc08249058d57cfc8f54a29d9cf9f":[10,0,12,15,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX9 =
 "db/d9a/classuint128__t.html#aed49b24b99293ae6b14ac9850f5deb94":[9,0,45,45],
 "db/d9a/classuint128__t.html#aefd58689b18b82b29dd191cfb713496d":[9,0,45,81],
 "db/d9a/classuint128__t.html#af139bb6e630f1a61919f180978611cd2":[9,0,45,8],
-"db/d9a/classuint128__t.html#af41320931969def869da9da5f2d8ce86":[9,0,45,30],
-"db/d9a/classuint128__t.html#af4ce01d81a0369218f7d46567d136733":[9,0,45,27],
-"db/d9a/classuint128__t.html#af5eddcc1c4c1e19fc5bd4341842340f6":[9,0,45,55],
-"db/d9a/classuint128__t.html#af71990a1fba93a5528ddb1e6662bffd6":[9,0,45,35],
-"db/d9a/classuint128__t.html#af922e0caa4a12cde919f376c4ebd489c":[9,0,45,58],
-"db/d9a/classuint128__t.html#af97e0bb47e0c4a693d53cf136fb36c0e":[9,0,45,57]
+"db/d9a/classuint128__t.html#af41320931969def869da9da5f2d8ce86":[9,0,45,30]
 };
